@@ -1,6 +1,8 @@
 #include <stdio.h>
 
 int main() {
+ 
+ //Questão 25 
  /* float fahrenheit, celsius;
   printf("Qual valor em graus fahrenheit voocê deseja converter para graus Celsius?\n");
   scanf("%f", &fahrenheit);
@@ -9,6 +11,8 @@ int main() {
   return 0;
 }
 */
+ 
+ //Questão 27
  /*float preco = 0.0, inflacao = 0.0;
 printf("Qual o preço do produto?\n");
   scanf("%f", &preco);
@@ -22,5 +26,20 @@ printf("Qual o preço do produto?\n");
      
   }
 } */
+
+ //Questão 34
+ /* int idade,numero;
+    char nome[50],endereco[150];
+    printf("Qual seu nome? \n");
+    scanf("%s", &nome );
+    printf("Qual seu endereço? \n");
+    scanf("%s", &endereco);
+    printf("Qual sua idade? \n");
+    scanf("%d", &idade);
+    printf("Qual seu numero? \n");
+    scanf("%d", &numero);
+    printf("Seu nome é %s, você tem %d anos, mora na rua %s, seu numero é %d", nome,idade,endereco,numero);
+    return 0;
+  }*/
   
   
