@@ -9,10 +9,18 @@ int main() {
   return 0;
 }
 */
-  float preco;
+ /*float preco = 0.0, inflacao = 0.0;
 printf("Qual o preço do produto?\n");
   scanf("%f", &preco);
-  if (preç)
-  printf("O preço do produto com desconto é: %.2f\n", preco * 0.1);
+  if (preco<100){
+    inflacao = ((preco * 0.1) + preco);
+  printf("O preço do produto inflacionado é: %.2f\n", inflacao);
+    }
+  if(preco>=100){
+    inflacao = ((preco * 0.2) + preco);
+    printf("O preço do produto inflacionado é: %.2f\n", inflacao);
+     
+  }
+} */
   
   
