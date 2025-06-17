@@ -1,3 +1,4 @@
+
 <div align="center">
 
 # Linguagem em C
@@ -28,5 +29,15 @@ Define um macro, um macro é um símbolo equivalente a uma parte do código em C
 ##include
 ```
 inclui um arquivo de código-fonte que serve para reutilizar códigos já prontos afim de trazer mais eficácia nos projetos.
+
+##
+
+## Saída de dados
+Para imprimir(mostrar) algo no consele para o usuário, devemos utilizar o comando **Printf** só que para dados de saida ou entrada rodarem é necessario adcionar uma biblioteca conhecida como **<stdio.h>**, Portanto a sitaxe básica é:
+```c
+
+printf("Hello word");
+```
+## Se você deseja que o us
 
 
