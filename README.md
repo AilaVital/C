@@ -29,7 +29,4 @@ Define um macro, um macro é um símbolo equivalente a uma parte do código em C
 ```
 inclui um arquivo de código-fonte que serve para reutilizar códigos já prontos afim de trazer mais eficácia nos projetos.
 
-##### Ex3:
-```C
-#undef
-```
+
