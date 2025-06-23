@@ -1,7 +1,8 @@
 
 
 
-# Linguagem em C
+# Caderno virtual - JavaScript
+Boas vindas! Este é seu caderno virtual. Aqui você irá aprender os conceitos basicos da linguagem de javascript. 
 
 
 ## Um pouco sobre História   
@@ -48,10 +49,11 @@ OBS: Em versões mais antigas da linguagem a ausência do return poderia levar a
 ## *Estrutura de dados do javaScript*
 
 Para programarmos em c é necessário apredermos sobre as propriedades que esta linguagem possui. Entre eles podemos citar:
-- dado de saída;
-- tipos de variáveis;
+- Comando de saída;
+- Tipos de variáveis;
 - Especificadores
-- Dado de entrada
+- Comando de entrada
+- Diretivas de Pré-processador
 - Operadores
 - Estrutura condicional;
 - Estruturas de Repetição;
@@ -59,8 +61,8 @@ Para programarmos em c é necessário apredermos sobre as propriedades que esta 
 
 A qual abordaremos cada um detalhadamente...
 
-## Dado de Saída 
-Basicamente os dados de saída servem para imprimir/mostrar algo no console(interface que permite a interação com um programa). Para você imprimir algo no console você deve utilizar o comando printf("Texto qualquer").
+## Comando de Saída 
+Basicamente os Comandos de saída servem para imprimir/mostrar algo no console(interface que permite a interação com um programa). Para você imprimir algo no console você deve utilizar o comando printf("Texto qualquer").
 
 Exemplo:
 
@@ -105,10 +107,35 @@ Apesar do nome soar um pouco estranho, ponto flutuante não é nada mais que nú
 
 Usamos double em algoritmos mais robusto quando por exemplo, utilizamos raiz quadradas, exponenciação ou até mesmo logaritmos
 
+## Especificadores de formatação
 
+Os especificadores como o próprio nome já sugere, serve para especificar o tipo de uma váriavel em um comando de entrada ou saída.
 
-   
+| Dígito    |               Descrição              |  variável| 
+|-----------|--------------------------------------|----------|
+| %d  ou  %i| Números inteiros em base decimal                   | int   |
+|     %x    | Números inteiros em base hexadecimal               | int   |
+|     %f    | Números em ponto flutuante (com casas decimais)    | float |
+|     %e    | Números em notação científica (com casas decimais) | float |
+|     %c    | Caracteres alfanuméricos(letra)                    | char  |
+|     %s    | Sequência de caracteres alfanuméricos(texto)       | char  |
+|    %lf    | Números reais em computadores (bytes)              | double|
 
+ Exemplo de aplicação de **variáveis** & **Especificadores** em comando de saída
 
+ ```c
+#include <stdio.h>
+
+int main(){
+
+int ano = 1972;
+char maldicao[500] = "Hello linguagem C";
+
+printf("%s \n",maldicao);
+printf("No ano de %d foi criada a linguagem C!\n",ano);
+return 0;
+}
+```
+Veja que eu dividi o código em 4 partes a primeira inclui a biblioteca de entrada e saída, em seguida criei minha função base, na 3° etapa declarei minhas variaveis e por fim, etapa 4 utilizei comandos de saída com meus especificadores para determinar o lugar em que eu queria colocar as minhas variáveis e sinalizei qual variavel ia ocupar aquela posição do especificador.
 
 
