@@ -172,13 +172,19 @@ Exemplo das principais bibliotecas e valores definitivos:
 #define ERRO_MENSAGEM "Ocorreu um erro!"
 #include <stdio.h> // Dados de entrada e saída
 #include <string.h> //Manipulação de string
-#include <math.h> //funções matemáticas comuns
+#include <math.h> //funções matemáticas comuns (ex. raiz quadrada, exponenciais, ângulos etc.
 ```
 
 ## Operadores
-Os operadores servem para realizarmos contas de matemática ou ate mesmo concactenação (junção) de strings
+Os operadores servem para realizarmos contas de matemática ou até mesmo concactenação (junção) de strings, existem dois tipos de operadores os operadores aritméticos e os operadores relacionais que servem para fazer comparações  
+os simbolos dos operadores são os seguintes:
 
-
-
+| Opreradores    |               Descrição              |  Exemplo| 
+|----------------|--------------------------------------|----------|
+|       *        | Multiplicação                        |(a * b)   |
+|       /        | Divisão                              |(a / b)   |
+|       +        | Adição                               |(a + b)   |
+|       -        | Subtração                            |(a – b)   |
+|       %        | Módulo                               |(a % b)   |
 
 
