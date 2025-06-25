@@ -139,6 +139,46 @@ return 0;
 Veja que eu dividi o código em 4 partes a primeira inclui a biblioteca de entrada e saída, em seguida criei minha função base, na 3° etapa declarei minhas variaveis e por fim, etapa 4 utilizei comandos de saída com meus especificadores para determinar o lugar em que eu queria colocar as minhas variáveis e sinalizei qual variavel ia ocupar naquela posição do especificador.
 
 ## 📥 Comando de Entrada
+Os dados de entrada serve para permitir ao usuário que ele entre com um dado para ser armazenado em alguma variável. Para fazer isso você deve utilizar o comando scanf("(o especificador referente a variável)" + , a variável que você deseja armazernar o valor.
+
+Exemplo:
+
+```c
+#include <stdio.h>
+int main(){
+
+int idade;
+
+Printf("Digite sua idade: \n");
+scanf("%d", &idade);
+printf("Sua idade é %d anos",idade);
+}
+```
+OBS 1: Lembre-se que o usuário não sabe sobre o sistema, por isso, toda vez que utilizar um comando de entrada especifique antes o que deseja, a mesma coisa acontece com o valor final, se você desejar mostrar ao usuário o valor que ele digitou utilize o printf logo após para isso.
+
+OBS 2: Quando especificar que quer aquele valor endereçado naquela variável, não se esqueça de colocar o & antes da variável.
+
+## Diretivas de Pré-processador
+
+Em um código em C, existe dois grandes blocos chamados de **escopo global** e o **escopo local**, tudo que é armazenado no escopo global pode ser utilizado em todo código enquanto o que há dentro da função base (int main) está dentro do escopo local e só pode ser utilizado naquele bloco.
+
+Diretivas de pré-processador normalmente estão localizadas no escopo gloal e são a primeira parte lidas no compilador, apesar do nome parecer complexo diretivas de pré-processador são basicamente composto por bibliotecas e valores definitivos.
+
+Exemplo das principais bibliotecas e valores definitivos:
+
+```c
+#define PI 3.14159
+#define MAX_SIZE 100
+#define ERRO_MENSAGEM "Ocorreu um erro!"
+#include <stdio.h> // Dados de entrada e saída
+#include <string.h> //Manipulação de string
+#include <math.h> //funções matemáticas comuns
+```
+
+## Operadores
+Os operadores servem para realizarmos contas de matemática ou ate mesmo concactenação (junção) de strings
+
+
 
 
 
