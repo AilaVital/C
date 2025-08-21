@@ -175,9 +175,10 @@ Exemplo das principais bibliotecas e valores definitivos:
 #include <math.h> //funções matemáticas comuns (ex. raiz quadrada, exponenciais, ângulos etc.
 ```
 
-## Operadores
-Os operadores servem para realizarmos contas de matemática ou até mesmo concactenação (junção) de strings, existem dois tipos de operadores os operadores aritméticos e os operadores relacionais que servem para fazer comparações  
-os simbolos dos operadores são os seguintes:
+## ➕ Operadores
+ Existem três tipos de operadores, os operadores aritméticos, os operadores relacionais e os operadores Lógicos. Os aritméticos servem para realizarmos contas matemáticas ou até mesmo concactenação (junção) de strings, enquanto os relacionais  servem para fazer comparações e  os lógicos são usados para retornar um valor booleano(verdadeiro ou falso). 
+ 
+**Simbolos de operadores aratméticos:**
 
 | Opreradores    |               Descrição              |  Exemplo| 
 |----------------|--------------------------------------|----------|
@@ -186,5 +187,51 @@ os simbolos dos operadores são os seguintes:
 |       +        | Adição                               |(a + b)   |
 |       -        | Subtração                            |(a – b)   |
 |       %        | Módulo                               |(a % b)   |
+
+ **Simbolos de operadores Relacionais/Lógicos:**
+
+| Opreradores    |               Descrição              |  Exemplo| 
+|----------------|--------------------------------------|----------|
+|       >        | Maior que                            |(a > b)   |
+|       >=       | Maior ou igual                       |(a >= b)  |
+|       <        | Menor que                            |(a < b)   |
+|       <=       | Menor ou igual                       |(a <= b)  |
+|       ==       | Igualdade                            |(a == b)  |
+|       !=       | Diferente que                        |(a != b)  |
+
+OBS: para usar o operador de igualdade deve colocar dois "=", caso ponha apenas um é uma atribuição de valor para variável.
+
+Atribuição de variável:
+```c
+#include <stdio.h>
+
+int main(){
+
+int ano = 1972;
+}
+```
+DIFETENTE DE
+
+Utilização de operador relacional  é como se fosse uma pergunta feita ao computador, se por exemplo, tivermos uma variável "número "com um valor do tipo inteiro "78", e utilizar o operador relacional de igualdade, a pergunta feita ao computador seria tipo "número é igual a 78?" e ele subentenderia que essa pergunta estaria verdadeira.
+
+**Simbolos de operadores lógicos:**
+
+| Opreradores    |               Descrição              |       Exemplo        | 
+|----------------|--------------------------------------|----------------------|
+|       &&      | e                                     |(a > b)  &&  (c > b)  |
+|       ||      |ou                                     |(a >= b) ||  (c >= b) |
+|       !       |não                                    |(a < b)   !   (a < b) | 
+
+Para utilizar os operadores lógicos em um programa é preciso lembrar-se das tabelinhas que nos auxilia na construção das condições. 
+
+tabela verdade E
+
+
+
+## Estruturas Condicionais
+
+Estruturas condicionais, como o próprio nome já sugere, é uma estrutura que possibilita o encadeamento de um leque de condições
+
+
 
 
