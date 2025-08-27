@@ -1,5 +1,4 @@
  //Questão 25 
-
 #include <stdio.h>
 
 int main() {
@@ -129,4 +128,119 @@ int a,b,c;
     }
   }
 
-
+#include <stdio.h>
+int main(){
+/*int matriz [4][5] = {
+{7 , 8, 9, 4},
+{5, 10, 1, 0},
+{4, 10, 10, 10},
+{10, 1, 6, 0},
+{2, 8, 4, 0},
+};
+printf("Imprimindo a matriz: \n");
+for (int i = 0; i < 5; i++){
+  for (int j = 0; j < 4; j++){
+  printf(" %d", matriz[i][j]);
+  }
+  printf("\n");
+}*/
+  /*int a,b,c,d;
+  printf("Digite o valor de A: ");
+  scanf("%d", &a);
+  printf("Digite o valor de B: ");
+  scanf("%d", &b);
+  printf("Digite o valor de C: ");
+  scanf("%d", &c);
+  printf("Digite o valor de D: ");
+  scanf("%d", &d);
+  int matriz [2][2] = {
+  {a, b},
+  {c, d},
+  };
+  printf("Imprimindo a matriz: \n");
+  for (int i = 0; i < 2; i++){
+    for (int j = 0; j < 2; j++){
+      printf(" %d", matriz[i][j]);
+    }
+    printf("\n");
+  }*/
+  /*int num[9];
+  for (int i = 0; i < 9; i++){
+    printf("Digite o valor %d: ", i+1);
+    scanf("%d", &num[i]);
+  }
+  int matriz [3][3] = {
+  {num[0], num[1], num[2]},
+  {num[3],num[4],num[5]},
+  {num[6],num[7],num[8]},
+  };
+  for (int i = 0; i < 3; i++){
+    for (int j = 0; j < 3; j++){
+      printf(" %d", matriz[i][j]);
+}
+printf("\n");
+}
+  printf("Os números da diagonal principal são: %d, %d, %d", matriz[0][0], matriz[1][1], matriz[2][2]);
+*/
+   /*int num[6];
+  for (int i = 0; i < 6; i++){
+    printf("Digite o valor %d: ", i+1);
+    scanf("%d", &num[i]);
+  }
+  int matriz [2][3] = {
+  {num[0], num[1], num[2]},
+  {num[3],num[4],num[5]},
+  };
+  for (int i = 0; i < 2; i++){
+    for (int j = 0; j < 3; j++){
+      printf(" %d", matriz[i][j]);
+}
+printf("\n");
+}
+  int soma = num[0] + num[1] + num[2] + num[3] + num[4] +num[5];
+  printf("A soma dos elementos da matriz é: %d", soma);
+}*/
+   /*int num[9];
+  for (int i = 0; i < 9; i++){
+    printf("Digite o valor %d: ", i+1);
+    scanf("%d", &num[i]);
+  }
+  int matriz [3][3] = {
+  {num[0], num[1], num[2]},
+  {num[3],num[4],num[5]},
+  {num[6],num[7],num[8]},
+  };
+  for (int i = 0; i < 3; i++){
+    for (int j = 0; j < 3; j++){
+      printf(" %d", matriz[i][j]);
+}
+printf("\n");
+}
+  if (num[0]>num[1] && num[0]>num[2] && num[0]>num[3] && num[0]>num[4] && num[0]>num[5] && num[0]>num[6] && num[0]>num[7] && num[0]>num[8]){
+    printf("O maior número é: %d", num[0]);
+  }
+  else if (num[1]>num[0] && num[1]>num[2] && num[1]>num[3] && num[1]>num[4] && num[1]>num[5] && num[1]>num[6]  && num[1]>num[7] && num[1]>num[8]){
+    printf("O maior número é: %d", num[1]);
+  }
+    else if (num[2]>num[0] && num[2]>num[1] && num[2]>num[3] && num[2]>num[4] && num[2]>num[5] && num[2]>num[6] && num[2]>num[7] && num[2]>num[8] ){
+      printf("O maior número é: %d", num[2]);
+    }
+      else if (num[3]>num[0] && num[3]>num[1] && num[3]>num[2] && num[3]>num[4] && num[3]>num[5] && num[3]>num[6] && num[3]>num[7] && num[3]>num[8]){
+        printf("O maior número é: %d", num[3]);
+      }
+  else if(num[4]>num[0] && num[4]>num[1] && num[4]>num[2] && num[4]>num[3] && num[4]>num[5] && num[4]>num[6] && num[4]>num[7] && num[4]>num[8]){
+    printf("O maior número é: %d", num[4]);
+  }
+  else if (num[5]>num[0] && num[5]>num[1] && num[5]>num[2] && num[5]>num[3] && num[5]>num[4] && num[5]>num[6] && num[5]>num[7] && num[5]>num[8]){
+    printf("O maior número é: %d", num[5]);
+  }
+  else if (num[6]>num[0] && num[6]>num[1] && num[6]>num[2] && num[6]>num[3] && num[6]>num[4] && num[6]>num[5] && num[6]>num[7] && num[6]>num[8]){
+    printf("O maior número é: %d", num[6]);
+  }
+  else if(num [7]>num[0] && num[7]>num[1] && num[7]>num[2] && num[7]>num[3] && num[7]>num[4] && num[7]>num[5] && num[7]>num[6] && num[7]>num[8]){
+    printf("O maior número é: %d", num[7]);
+  }
+  else if (num[8]>num[0] && num[8]>num[1] && num[8]>num[2] && num[8]>num[3] && num[8]>num[4] && num[8]>num[5] && num[8]>num[6] && num[8]>num[7]){
+    printf("O maior número é: %d", num[8]);
+  }*/
+}
